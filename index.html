@@ -1,742 +1,1206 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-    <meta name="description" content="HeartMinded - авторский курс пилатеса от Ксении Писаревой. Обретите стройное тело и восстановите внутреннее равновесие." />
-    <title>HeartMinded - Авторский курс Ксении Писаревой</title>
-    <link
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+        />
+        <meta
+            name="description"
+            content="HeartMinded - авторский курс пилатеса от Ксении Писаревой. Обретите стройное тело и восстановите внутреннее равновесие."
+        />
+        <link rel="icon" href="assets/Logo1x.png" type="image/png" />
+        <title>HeartMinded - Авторский курс Ксении Писаревой</title>
+        <link
             href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Cormorant:wght@400;600;700&display=swap"
             rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-<div class="first-main">
-    <nav class="navbar" id="navbar-id" role="navigation" aria-label="Главная навигация">
-        <div class="navbar-container">
-            <div class="navbar-content">
-                <div class="navbar-logo">
-                    <a class="navbar-brand" href="#" aria-label="HeartMinded - на главную">
-                        <picture>
-                            <source srcset="assets/Logo2x.png 2x, assets/Logo1x.png 1x" type="image/png" />
-                            <img src="assets/Logo1x.png" alt="HeartMinded логотип" height="70" />
-                        </picture>
-                    </a>
-                </div>
-
-                <button
-                        class="navbar-toggler"
-                        type="button"
-                        id="navbarToggler"
-                        aria-label="Открыть меню"
-                        aria-expanded="false"
-                        aria-controls="mobileMenuPanel"
-                >
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-center desktop-only">
-                    <div class="navbar-menu" id="navbarNav">
-                        <ul class="navbar-nav" role="menubar">
-                            <li class="nav-item" role="none"><a class="nav-link" href="#for-whom" role="menuitem">Для кого этот курс?</a><div class="nav-line" aria-hidden="true"></div></li>
-                            <li class="nav-item" role="none"><a class="nav-link" href="#results" role="menuitem">Результаты обучения</a><div class="nav-line" aria-hidden="true"></div></li>
-                            <li class="nav-item" role="none"><a class="nav-link" href="#prices" role="menuitem">Тарифы</a><div class="nav-line" aria-hidden="true"></div></li>
-                            <li class="nav-item" role="none"><a class="nav-link" href="#tools" role="menuitem">Инструменты</a><div class="nav-line" aria-hidden="true"></div></li>
-                            <li class="nav-item" role="none"><a class="nav-link" href="#contacts" role="menuitem">Контакты</a><div class="nav-line" aria-hidden="true"></div></li>
-                        </ul>
-                        <div class="navbar-actions">
-                            <a href="https://instagram.com" class="instagram-link" aria-label="Наш Instagram" rel="noopener noreferrer" target="_blank">
-                                <img src="assets/Inst.svg" alt="" width="32" height="32" />
+        />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="first-main">
+            <nav class="navbar" id="navbar-id" aria-label="Главная навигация">
+                <div class="navbar-container">
+                    <div class="navbar-content">
+                        <div class="navbar-logo">
+                            <a
+                                class="navbar-brand"
+                                href="#"
+                                aria-label="HeartMinded - на главную"
+                            >
+                                <picture>
+                                    <source
+                                        srcset="
+                                            assets/Logo2x.png 2x,
+                                            assets/Logo1x.png 1x
+                                        "
+                                        type="image/png"
+                                    />
+                                    <img
+                                        src="assets/Logo1x.png"
+                                        alt="HeartMinded логотип"
+                                        height="70"
+                                    />
+                                </picture>
                             </a>
-                            <button class="btn-call-me" type="button" aria-label="Заказать обратный звонок">Перезвоните мне</button>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="navbar-overlay" id="navbarOverlay" hidden>
-            <div class="mobile-menu-panel" id="mobileMenuPanel" role="dialog" aria-modal="true" aria-labelledby="mobile-menu-title">
-                <h2 id="mobile-menu-title" class="visually-hidden">Меню навигации</h2>
-                <button class="menu-close" id="menuCloseBtn" aria-label="Закрыть меню">×</button>
-                <ul class="mobile-nav-list" role="menu">
-                    <li role="none"><a class="mobile-nav-link" href="#for-whom" role="menuitem">Для кого этот курс?</a></li>
-                    <li role="none"><a class="mobile-nav-link" href="#results" role="menuitem">Результаты обучения</a></li>
-                    <li role="none"><a class="mobile-nav-link" href="#prices" role="menuitem">Тарифы</a></li>
-                    <li role="none"><a class="mobile-nav-link" href="#tools" role="menuitem">Инструменты</a></li>
-                    <li role="none"><a class="mobile-nav-link" href="#contacts" role="menuitem">Контакты</a></li>
-                </ul>
 
-                <div class="mobile-menu-footer">
-                    <a href="https://instagram.com" class="social-circle" aria-label="Наш Instagram" rel="noopener noreferrer" target="_blank">
-                        <img src="assets/Inst.svg" alt="" width="26" height="26" />
-                    </a>
-                    <button class="btn-call-me mobile-call-btn" type="button" aria-label="Заказать обратный звонок">Перезвоните мне</button>
-                </div>
-            </div>
-        </div>
-    </nav>
-
-
-    <section class="hero-section" id="main-content">
-        <div class="container">
-            <div class="hero-content">
-                <div class="hero-header">
-                    <p class="author-name">
-                        Авторский курс Ксении Писаревой
-                    </p>
-                </div>
-                <div class="hero-title">
-                    <h1 class="course-title">
-                        Heart<span class="minded">Minded</span>
-                    </h1>
-                </div>
-                <div class="hero-subtitle">
-                    <h2 class="course-subtitle">
-                        Обретите стройное, гибкое тело<br />
-                        без напряжений и зажимов и восстановите<br />
-                        внутреннее равновесие
-                    </h2>
-                </div>
-                <div class="hero-features">
-                    <div class="features-container">
-                        <div class="features-grid">
-                            <div class="feature-item">
-                                <div class="feature-icon" aria-hidden="true">
-                                    <img
-                                            src="assets/free-icon-yoga-position-1599530 1.svg"
-                                            alt=""
-                                            class="feature-svg"
-                                            width="40"
-                                            height="40"
-                                    />
-                                </div>
-                                <div class="feature-text">
-                                    <div class="feature-title">
-                                        Преподаватель
-                                    </div>
-                                    <div class="feature-subtitle">
-                                        мирового класса
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="feature-item">
-                                <div class="feature-icon" aria-hidden="true">
-                                    <img
-                                            src="assets/free-icon-helping-hand-3208247 1.svg"
-                                            alt=""
-                                            class="feature-svg"
-                                            width="40"
-                                            height="40"
-                                    />
-                                </div>
-                                <div class="feature-text">
-                                    <div class="feature-title">
-                                        Персональная поддержка
-                                    </div>
-                                    <div class="feature-subtitle">
-                                        на всех
-                                    </div>
-                                    <div class="feature-subtitle">
-                                        тарифах
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="feature-item">
-                                <div class="feature-icon" aria-hidden="true">
-                                    <img
-                                            src="assets/free-icon-time-1792839 1.svg"
-                                            alt=""
-                                            class="feature-svg"
-                                            width="40"
-                                            height="40"
-                                    />
-                                </div>
-                                <div class="feature-text">
-                                    <div class="feature-title">
-                                        Длительность курса
-                                    </div>
-                                    <div class="feature-subtitle">
-                                        3 недели
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="register-button-container">
-                        <a href="#register" aria-label="Зарегистрироваться на бесплатный вебинар">
-                            <img
-                                    src="assets/btn.svg"
-                                    alt="Зарегистрироваться"
-                                    class="register-button-img"
-                            />
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-</div>
-<div class="second-main">
-    <section class="uniqueness-section">
-        <div class="container">
-            <div class="section-wrapper">
-                <div class="section-header">
-                    <h2 class="section-title">
-                        В чем "уникальность" курса?
-                    </h2>
-                    <h3 class="section-subtitle">
-                        Курс HeartMinded для КАЖДОГО "ТЕЛА" и "ДУШИ"
-                    </h3>
-                </div>
-                <div class="central-image-container">
-                    <div class="hint-blocks">
-                        <div class="hint-block action-hint">
-                            <div class="hint-trigger">
-                                        <span class="hint-title"
-                                        >Действие</span
+                        <button
+                            class="navbar-toggler"
+                            type="button"
+                            id="navbarToggler"
+                            aria-label="Открыть меню"
+                            aria-expanded="false"
+                            aria-controls="mobileMenuPanel"
+                        >
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="navbar-center desktop-only">
+                            <div class="navbar-menu" id="navbarNav">
+                                <ul class="navbar-nav" role="menubar">
+                                    <li class="nav-item" role="none">
+                                        <a
+                                            class="nav-link"
+                                            href="#for-whom"
+                                            role="menuitem"
+                                            >Для кого этот курс?</a
                                         >
-                                <img
-                                        class="question-icon"
-                                        src="assets/quest.svg"
-                                        alt=""
-                                        aria-hidden="true"
-                                        width="20"
-                                        height="20"
-                                />
-                            </div>
-                            <div class="hint-content">
-                                Наше физическое состояние
-                                определяется действиями. Действия
-                                же, в свою очередь, мотивацией.
-                            </div>
-                            <div class="hint-arrow" aria-hidden="true"></div>
-                        </div>
-
-                        <div class="hint-block psyche-hint">
-                            <div class="hint-trigger">
-                                        <span class="hint-title"
-                                        >Психика</span
+                                        <div
+                                            class="nav-line"
+                                            aria-hidden="true"
+                                        ></div>
+                                    </li>
+                                    <li class="nav-item" role="none">
+                                        <a
+                                            class="nav-link"
+                                            href="#results"
+                                            role="menuitem"
+                                            >Результаты обучения</a
                                         >
-                                <img
-                                        class="question-icon"
-                                        src="assets/quest.svg"
-                                        alt=""
-                                        aria-hidden="true"
-                                        width="20"
-                                        height="20"
-                                />
-                            </div>
-                            <div class="hint-content">
-                                Поэтому, чтобы добиться долгосрочных
-                                результатов, необходимо работать и с
-                                физикой, и с психикой, и с химией
-                                нашего организма.
-                            </div>
-                            <div class="hint-arrow" aria-hidden="true"></div>
-                        </div>
-
-                        <div class="hint-block motivation-hint">
-                            <div class="hint-trigger">
-                                        <span class="hint-title"
-                                        >Мотивация</span
+                                        <div
+                                            class="nav-line"
+                                            aria-hidden="true"
+                                        ></div>
+                                    </li>
+                                    <li class="nav-item" role="none">
+                                        <a
+                                            class="nav-link"
+                                            href="#prices"
+                                            role="menuitem"
+                                            >Тарифы</a
                                         >
+                                        <div
+                                            class="nav-line"
+                                            aria-hidden="true"
+                                        ></div>
+                                    </li>
+                                    <li class="nav-item" role="none">
+                                        <a
+                                            class="nav-link"
+                                            href="#tools"
+                                            role="menuitem"
+                                            >Инструменты</a
+                                        >
+                                        <div
+                                            class="nav-line"
+                                            aria-hidden="true"
+                                        ></div>
+                                    </li>
+                                    <li class="nav-item" role="none">
+                                        <a
+                                            class="nav-link"
+                                            href="#contacts"
+                                            role="menuitem"
+                                            >Контакты</a
+                                        >
+                                        <div
+                                            class="nav-line"
+                                            aria-hidden="true"
+                                        ></div>
+                                    </li>
+                                </ul>
+                                <div class="navbar-actions">
+                                    <a
+                                        href="https://instagram.com"
+                                        class="instagram-link"
+                                        aria-label="Наш Instagram"
+                                        rel="noopener noreferrer"
+                                        target="_blank"
+                                    >
+                                        <img
+                                            src="assets/Inst.svg"
+                                            alt=""
+                                            width="32"
+                                            height="32"
+                                        />
+                                    </a>
+                                    <button
+                                        class="btn-call-me"
+                                        type="button"
+                                        aria-label="Заказать обратный звонок"
+                                    >
+                                        Перезвоните мне
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="navbar-overlay" id="navbarOverlay" hidden>
+                    <div
+                        class="mobile-menu-panel"
+                        id="mobileMenuPanel"
+                        role="dialog"
+                        aria-modal="true"
+                        aria-labelledby="mobile-menu-title"
+                    >
+                        <h2 id="mobile-menu-title" class="visually-hidden">
+                            Меню навигации
+                        </h2>
+                        <button
+                            class="menu-close"
+                            id="menuCloseBtn"
+                            aria-label="Закрыть меню"
+                        >
+                            ×
+                        </button>
+                        <ul class="mobile-nav-list" role="menu">
+                            <li role="none">
+                                <a
+                                    class="mobile-nav-link"
+                                    href="#for-whom"
+                                    role="menuitem"
+                                    >Для кого этот курс?</a
+                                >
+                            </li>
+                            <li role="none">
+                                <a
+                                    class="mobile-nav-link"
+                                    href="#results"
+                                    role="menuitem"
+                                    >Результаты обучения</a
+                                >
+                            </li>
+                            <li role="none">
+                                <a
+                                    class="mobile-nav-link"
+                                    href="#prices"
+                                    role="menuitem"
+                                    >Тарифы</a
+                                >
+                            </li>
+                            <li role="none">
+                                <a
+                                    class="mobile-nav-link"
+                                    href="#tools"
+                                    role="menuitem"
+                                    >Инструменты</a
+                                >
+                            </li>
+                            <li role="none">
+                                <a
+                                    class="mobile-nav-link"
+                                    href="#contacts"
+                                    role="menuitem"
+                                    >Контакты</a
+                                >
+                            </li>
+                        </ul>
+
+                        <div class="mobile-menu-footer">
+                            <a
+                                href="https://instagram.com"
+                                class="social-circle"
+                                aria-label="Наш Instagram"
+                                rel="noopener noreferrer"
+                                target="_blank"
+                            >
                                 <img
-                                        class="question-icon"
-                                        src="assets/quest.svg"
-                                        alt=""
-                                        aria-hidden="true"
-                                        width="20"
-                                        height="20"
+                                    src="assets/Inst.svg"
+                                    alt=""
+                                    width="26"
+                                    height="26"
                                 />
-                            </div>
-                            <div class="hint-content">
-                                На мотивацию влияют глубинные
-                                процессы психики, часть которых мы
-                                даже не осознаем.
-                            </div>
-                            <div class="hint-arrow" aria-hidden="true"></div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="additional-text">
-                    <p>
-                        В рамках одного курса вы ощутите силу
-                        пилатеса, когнитивной психологии,
-                        минералогии и китайской традиционной
-                        медицины.
-                    </p>
-                    <p>
-                        Вы научитесь "читать" собственное тело и
-                        отвечать ему корректно на запросы, исправляя
-                        первопричину, а не просто снижать
-                        симптоматику. После окончания курса вы
-                        сможете пользоваться инструментами
-                        самостоятельно.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <div class="elements-section">
-        <div class="container">
-            <div class="section-wrapper">
-                <div class="section-header">
-                    <h2 class="elements-title">
-                        Элементы вашего эффективного обучения
-                    </h2>
-                </div>
-
-                <div class="elements-grid">
-                    <div class="element-item">
-                        <div class="element-icon" aria-hidden="true">
-                            <img
-                                    src="assets/1.svg"
-                                    alt=""
-                                    class="element-svg"
-                                    width="50"
-                                    height="50"
-                            />
-                        </div>
-                        <div class="element-content">
-                            <h3 class="element-title">
-                                Преподаватель<br>мирового класса
-                            </h3>
-                            <div class="element-description">
-                                Вы будете заниматься по авторской
-                                методике, подкрепленной 15-ти летним
-                                опытом работы в фитнес-индустрии и
-                                глубокими знаниями смежных областей
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="element-item">
-                        <div class="element-icon" aria-hidden="true">
-                            <img
-                                    src="assets/2.svg"
-                                    alt=""
-                                    class="element-svg"
-                                    width="50"
-                                    height="50"
-                            />
-                        </div>
-                        <div class="element-content">
-                            <h3 class="element-title">
-                                Персональная<br>поддержка
-                            </h3>
-                            <div class="element-description">
-                                На всех тарифах предусмотрена обратная
-                                связь - в чате поддержки вы всегда
-                                сможете проконсультироваться по любым
-                                вопросам
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="element-item">
-                        <div class="element-icon" aria-hidden="true">
-                            <img
-                                    src="assets/3.svg"
-                                    alt=""
-                                    class="element-svg"
-                                    width="50"
-                                    height="50"
-                            />
-                        </div>
-                        <div class="element-content">
-                            <h3 class="element-title">
-                                Индивидуальный<br>подход
-                            </h3>
-                            <div class="element-description">
-                                В курсе представлены опции даже для
-                                людей с физиологическими
-                                особенностями/травмами/
-                                послеоперационным периодом
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="element-item">
-                        <div class="element-icon" aria-hidden="true">
-                            <img
-                                    src="assets/4.svg"
-                                    alt=""
-                                    class="element-svg"
-                                    width="50"
-                                    height="50"
-                            />
-                        </div>
-                        <div class="element-content">
-                            <h3 class="element-title">
-                                Доступная<br>методика
-                            </h3>
-                            <div class="element-description">
-                                Легкая в усвоении информация — результат
-                                вы увидите и почувствуете же после 1-го
-                                урока
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="element-item">
-                        <div class="element-icon" aria-hidden="true">
-                            <img
-                                    src="assets/5.svg"
-                                    alt=""
-                                    class="element-svg"
-                                    width="50"
-                                    height="50"
-                            />
-                        </div>
-                        <div class="element-content">
-                            <h3 class="element-title">
-                                Экономия<br>ресурсов
-                            </h3>
-                            <div class="element-description">
-                                Онлайн-курс полностью адаптирован для
-                                занятий дома в удобное для вас время
-                                суток - вам не придется тратить деньги и
-                                время на дорогу
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="third-main" id="for-whom">
-        <div class="container">
-            <div class="section-wrapper">
-                <h2 class="third-main-title">Этот курс будет полезен для:</h2>
-
-                <div class="third-main-content">
-
-                    <div class="sec1">
-                        <div class="sec-image">
-                            <img src="assets/sec1.svg" alt="Восстановления после родов" loading="lazy">
-                        </div>
-                        <div class="sec-content">
-                            <h3 class="sec-title">Восстановления после родов</h3>
-                            <ul class="sec-list">
-                                <li>Вы хотите вернуть форму после беременности и любовь к своему телу</li>
-                                <li>У вас диастаз/грыжи/протрузии, и вы не знаете, как правильно тренироваться</li>
-                                <li>Хотите восстановить энергию и быть в ресурсном состоянии</li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="sec2">
-                        <div class="sec-image">
-                            <img src="assets/sec2.svg" alt="Людей с сидячей работой" loading="lazy">
-                        </div>
-                        <div class="sec-content">
-                            <h3 class="sec-title">Людей с сидячей работой</h3>
-                            <ul class="sec-list">
-                                <li>Вы хотите избавиться от сутулости/болей в спине/пояснице</li>
-                                <li>У вас проблемы с дыханием, пищеварением, выделительной системой, вы тяжело засыпаете или просыпаетесь уставшим</li>
-                                <li>Вы чувствуете "выгорание", ощущаете себя одиноким, покинутым, не можете найти внутреннюю опору</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="sec3">
-                        <div class="sec-image">
-                            <img src="assets/sec3.svg" alt="Восстановления после травм/операций" loading="lazy">
-                        </div>
-                        <div class="sec-content">
-                            <h3 class="sec-title">Восстановления после травм/операций</h3>
-                            <ul class="sec-list">
-                                <li>Вы хотите восстановить потерянный тонус и гибкость мышц, ускорить выздоровление</li>
-                                <li>Вам необходимо укрепить и улучшить все двигательные функции тела</li>
-                                <li>Вы стремитесь поддерживать тело в форме, несмотря на ограничения</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="registration-section" id="prices">
-        <div class="registration-container">
-            <div class="registration-box">
-                <div class="registration-inner-box">
-                    <div class="registration-content">
-                        <h2 class="registration-title">Не уверены, что вам нужен курс?</h2>
-                        <p class="registration-subtitle">Начните с бесплатного живого вебинара с автором курса</p>
-
-                        <form class="registration-form" id="registration-form" novalidate>
-                            <div class="form-group">
-                                <label for="reg-name" class="visually-hidden">Ваше имя</label>
-                                <input
-                                        type="text"
-                                        id="reg-name"
-                                        name="name"
-                                        class="registration-input"
-                                        placeholder="Введите Имя"
-                                        required
-                                        aria-required="true"
-                                        autocomplete="name"
-                                />
-                            </div>
-                            <div class="form-group">
-                                <label for="reg-email" class="visually-hidden">Ваш email</label>
-                                <input
-                                        type="email"
-                                        id="reg-email"
-                                        name="email"
-                                        class="registration-input"
-                                        placeholder="Введите e-mail"
-                                        required
-                                        aria-required="true"
-                                        autocomplete="email"
-                                />
-                            </div>
-
-                            <div class="registration-checkbox">
-                                <input
-                                        type="checkbox"
-                                        id="privacy-reg"
-                                        name="privacy"
-                                        checked
-                                        required
-                                        aria-required="true"
-                                />
-                                <label for="privacy-reg">Я согласен на обработку персональных данных и с условиями политики конфиденциальности</label>
-                            </div>
-                        </form>
-
-                        <div class="registration-button-container">
-                            <button type="submit" form="registration-form" class="registration-button-wrapper" aria-label="Отправить форму регистрации">
-                                <img src="assets/reg_bnt.svg" alt="Зарегистрироваться на бесплатный вебинар" class="registration-button-img" />
+                            </a>
+                            <button
+                                class="btn-call-me mobile-call-btn"
+                                type="button"
+                                aria-label="Заказать обратный звонок"
+                            >
+                                Перезвоните мне
                             </button>
                         </div>
                     </div>
+                </div>
+            </nav>
 
-                    <div class="registration-image" id="register" aria-hidden="true">
-                        <img src="assets/reg.svg" alt="" />
+            <section class="hero-section" id="main-content">
+                <div class="container">
+                    <div class="hero-content">
+                        <div class="hero-header">
+                            <p class="author-name">
+                                Авторский курс Ксении Писаревой
+                            </p>
+                        </div>
+                        <div class="hero-title">
+                            <h1 class="course-title">
+                                Heart<span class="minded">Minded</span>
+                            </h1>
+                        </div>
+                        <div class="hero-subtitle">
+                            <h2 class="course-subtitle">
+                                Обретите стройное, гибкое тело<br />
+                                без напряжений и зажимов и восстановите<br />
+                                внутреннее равновесие
+                            </h2>
+                        </div>
+                        <div class="hero-features">
+                            <div class="features-container">
+                                <div class="features-grid">
+                                    <div class="feature-item">
+                                        <div
+                                            class="feature-icon"
+                                            aria-hidden="true"
+                                        >
+                                            <img
+                                                src="assets/free-icon-yoga-position-1599530.svg"
+                                                alt=""
+                                                class="feature-svg"
+                                                width="40"
+                                                height="40"
+                                            />
+                                        </div>
+                                        <div class="feature-text">
+                                            <div class="feature-title">
+                                                Преподаватель
+                                            </div>
+                                            <div class="feature-subtitle">
+                                                мирового класса
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="feature-item">
+                                        <div
+                                            class="feature-icon"
+                                            aria-hidden="true"
+                                        >
+                                            <img
+                                                src="assets/free-icon-helping-hand-3208247.svg"
+                                                alt=""
+                                                class="feature-svg"
+                                                width="40"
+                                                height="40"
+                                            />
+                                        </div>
+                                        <div class="feature-text">
+                                            <div class="feature-title">
+                                                Персональная поддержка
+                                            </div>
+                                            <div class="feature-subtitle">
+                                                на всех
+                                            </div>
+                                            <div class="feature-subtitle">
+                                                тарифах
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="feature-item">
+                                        <div
+                                            class="feature-icon"
+                                            aria-hidden="true"
+                                        >
+                                            <img
+                                                src="assets/free-icon-time-1792839.svg"
+                                                alt=""
+                                                class="feature-svg"
+                                                width="40"
+                                                height="40"
+                                            />
+                                        </div>
+                                        <div class="feature-text">
+                                            <div class="feature-title">
+                                                Длительность курса
+                                            </div>
+                                            <div class="feature-subtitle">
+                                                3 недели
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="register-button-container">
+                                <a
+                                    href="#register"
+                                    aria-label="Зарегистрироваться на бесплатный вебинар"
+                                >
+                                    <img
+                                        src="assets/btn.svg"
+                                        alt="Зарегистрироваться"
+                                        class="register-button-img"
+                                    />
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
+            </section>
         </div>
-    </div>
-
-    <div class="tools-section" id="tools">
-        <div class="container">
-            <div class="section-wrapper">
-                <div class="section-header">
-                    <h2 class="tools-title">
-                        Какие инструменты будем использовать
-                    </h2>
-                </div>
-
-                <div class="tools-grid">
-                    <div class="tool-item">
-                        <div class="tool-icon" aria-hidden="true">
-                            <img src="assets/1-sec.svg" alt="" class="tool-svg" width="40" height="40" loading="lazy">
-                        </div>
-                        <div class="tool-content">
-                            <h3 class="tool-title">
-                                Авторские лекции и материалы
+        <div class="second-main">
+            <section class="uniqueness-section">
+                <div class="container">
+                    <div class="section-wrapper">
+                        <div class="section-header">
+                            <h2 class="section-title">
+                                В чем "уникальность" курса?
+                            </h2>
+                            <h3 class="section-subtitle">
+                                Курс HeartMinded для КАЖДОГО "ТЕЛА" и "ДУШИ"
                             </h3>
-                            <p class="tool-description">
-                                только проверенные знания и наработки
+                        </div>
+                        <div class="central-image-container">
+                            <div class="hint-blocks">
+                                <div class="hint-block action-hint">
+                                    <div class="hint-trigger">
+                                        <span class="hint-title">Действие</span>
+                                        <img
+                                            class="question-icon"
+                                            src="assets/quest.svg"
+                                            alt=""
+                                            aria-hidden="true"
+                                            width="20"
+                                            height="20"
+                                        />
+                                    </div>
+                                    <div class="hint-content">
+                                        Наше физическое состояние определяется
+                                        действиями. Действия же, в свою очередь,
+                                        мотивацией.
+                                    </div>
+                                    <div
+                                        class="hint-arrow"
+                                        aria-hidden="true"
+                                    ></div>
+                                </div>
+
+                                <div class="hint-block psyche-hint">
+                                    <div class="hint-trigger">
+                                        <span class="hint-title">Психика</span>
+                                        <img
+                                            class="question-icon"
+                                            src="assets/quest.svg"
+                                            alt=""
+                                            aria-hidden="true"
+                                            width="20"
+                                            height="20"
+                                        />
+                                    </div>
+                                    <div class="hint-content">
+                                        Поэтому, чтобы добиться долгосрочных
+                                        результатов, необходимо работать и с
+                                        физикой, и с психикой, и с химией нашего
+                                        организма.
+                                    </div>
+                                    <div
+                                        class="hint-arrow"
+                                        aria-hidden="true"
+                                    ></div>
+                                </div>
+
+                                <div class="hint-block motivation-hint">
+                                    <div class="hint-trigger">
+                                        <span class="hint-title"
+                                            >Мотивация</span
+                                        >
+                                        <img
+                                            class="question-icon"
+                                            src="assets/quest.svg"
+                                            alt=""
+                                            aria-hidden="true"
+                                            width="20"
+                                            height="20"
+                                        />
+                                    </div>
+                                    <div class="hint-content">
+                                        На мотивацию влияют глубинные процессы
+                                        психики, часть которых мы даже не
+                                        осознаем.
+                                    </div>
+                                    <div
+                                        class="hint-arrow"
+                                        aria-hidden="true"
+                                    ></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="additional-text">
+                            <p>
+                                В рамках одного курса вы ощутите силу пилатеса,
+                                когнитивной психологии, минералогии и китайской
+                                традиционной медицины.
+                            </p>
+                            <p>
+                                Вы научитесь "читать" собственное тело и
+                                отвечать ему корректно на запросы, исправляя
+                                первопричину, а не просто снижать симптоматику.
+                                После окончания курса вы сможете пользоваться
+                                инструментами самостоятельно.
                             </p>
                         </div>
                     </div>
-
-                    <div class="tool-item">
-                        <div class="tool-icon" aria-hidden="true">
-                            <img src="assets/2-sec.svg" alt="" class="tool-svg" width="40" height="40" loading="lazy">
+                </div>
+            </section>
+            <div class="elements-section">
+                <div class="container">
+                    <div class="section-wrapper">
+                        <div class="section-header">
+                            <h2 class="elements-title">
+                                Элементы вашего эффективного обучения
+                            </h2>
                         </div>
-                        <div class="tool-content">
-                            <h3 class="tool-title">
-                                Видео-уроки высокого качества
-                            </h3>
-                            <p class="tool-description">
-                                записанные специально для этого курса
-                            </p>
+
+                        <div class="elements-grid">
+                            <div class="element-item">
+                                <div class="element-icon" aria-hidden="true">
+                                    <img
+                                        src="assets/1.svg"
+                                        alt=""
+                                        class="element-svg"
+                                        width="50"
+                                        height="50"
+                                    />
+                                </div>
+                                <div class="element-content">
+                                    <h3 class="element-title">
+                                        Преподаватель<br />мирового класса
+                                    </h3>
+                                    <div class="element-description">
+                                        Вы будете заниматься по авторской
+                                        методике, подкрепленной 15-ти летним
+                                        опытом работы в фитнес-индустрии и
+                                        глубокими знаниями смежных областей
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="element-item">
+                                <div class="element-icon" aria-hidden="true">
+                                    <img
+                                        src="assets/2.svg"
+                                        alt=""
+                                        class="element-svg"
+                                        width="50"
+                                        height="50"
+                                    />
+                                </div>
+                                <div class="element-content">
+                                    <h3 class="element-title">
+                                        Персональная<br />поддержка
+                                    </h3>
+                                    <div class="element-description">
+                                        На всех тарифах предусмотрена обратная
+                                        связь - в чате поддержки вы всегда
+                                        сможете проконсультироваться по любым
+                                        вопросам
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="element-item">
+                                <div class="element-icon" aria-hidden="true">
+                                    <img
+                                        src="assets/3.svg"
+                                        alt=""
+                                        class="element-svg"
+                                        width="50"
+                                        height="50"
+                                    />
+                                </div>
+                                <div class="element-content">
+                                    <h3 class="element-title">
+                                        Индивидуальный<br />подход
+                                    </h3>
+                                    <div class="element-description">
+                                        В курсе представлены опции даже для
+                                        людей с физиологическими
+                                        особенностями/травмами/
+                                        послеоперационным периодом
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="element-item">
+                                <div class="element-icon" aria-hidden="true">
+                                    <img
+                                        src="assets/4.svg"
+                                        alt=""
+                                        class="element-svg"
+                                        width="50"
+                                        height="50"
+                                    />
+                                </div>
+                                <div class="element-content">
+                                    <h3 class="element-title">
+                                        Доступная<br />методика
+                                    </h3>
+                                    <div class="element-description">
+                                        Легкая в усвоении информация — результат
+                                        вы увидите и почувствуете же после 1-го
+                                        урока
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="element-item">
+                                <div class="element-icon" aria-hidden="true">
+                                    <img
+                                        src="assets/5.svg"
+                                        alt=""
+                                        class="element-svg"
+                                        width="50"
+                                        height="50"
+                                    />
+                                </div>
+                                <div class="element-content">
+                                    <h3 class="element-title">
+                                        Экономия<br />ресурсов
+                                    </h3>
+                                    <div class="element-description">
+                                        Онлайн-курс полностью адаптирован для
+                                        занятий дома в удобное для вас время
+                                        суток - вам не придется тратить деньги и
+                                        время на дорогу
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
+                </div>
+            </div>
+            <div class="third-main" id="for-whom">
+                <div class="container">
+                    <div class="section-wrapper">
+                        <h2 class="third-main-title">
+                            Этот курс будет полезен для:
+                        </h2>
 
-                    <div class="tool-item">
-                        <div class="tool-icon" aria-hidden="true">
-                            <img src="assets/3-sec.svg" alt="" class="tool-svg" width="40" height="40" loading="lazy">
+                        <div class="third-main-content">
+                            <div class="sec1">
+                                <div class="sec-image">
+                                    <img
+                                        src="assets/sec1.svg"
+                                        alt="Восстановления после родов"
+                                        loading="lazy"
+                                    />
+                                </div>
+                                <div class="sec-content">
+                                    <h3 class="sec-title">
+                                        Восстановления после родов
+                                    </h3>
+                                    <ul class="sec-list">
+                                        <li>
+                                            Вы хотите вернуть форму после
+                                            беременности и любовь к своему телу
+                                        </li>
+                                        <li>
+                                            У вас диастаз/грыжи/протрузии, и вы
+                                            не знаете, как правильно
+                                            тренироваться
+                                        </li>
+                                        <li>
+                                            Хотите восстановить энергию и быть в
+                                            ресурсном состоянии
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="sec2">
+                                <div class="sec-image">
+                                    <img
+                                        src="assets/sec2.svg"
+                                        alt="Людей с сидячей работой"
+                                        loading="lazy"
+                                    />
+                                </div>
+                                <div class="sec-content">
+                                    <h3 class="sec-title">
+                                        Людей с сидячей работой
+                                    </h3>
+                                    <ul class="sec-list">
+                                        <li>
+                                            Вы хотите избавиться от
+                                            сутулости/болей в спине/пояснице
+                                        </li>
+                                        <li>
+                                            У вас проблемы с дыханием,
+                                            пищеварением, выделительной
+                                            системой, вы тяжело засыпаете или
+                                            просыпаетесь уставшим
+                                        </li>
+                                        <li>
+                                            Вы чувствуете "выгорание", ощущаете
+                                            себя одиноким, покинутым, не можете
+                                            найти внутреннюю опору
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="sec3">
+                                <div class="sec-image">
+                                    <img
+                                        src="assets/sec3.svg"
+                                        alt="Восстановления после травм/операций"
+                                        loading="lazy"
+                                    />
+                                </div>
+                                <div class="sec-content">
+                                    <h3 class="sec-title">
+                                        Восстановления после травм/операций
+                                    </h3>
+                                    <ul class="sec-list">
+                                        <li>
+                                            Вы хотите восстановить потерянный
+                                            тонус и гибкость мышц, ускорить
+                                            выздоровление
+                                        </li>
+                                        <li>
+                                            Вам необходимо укрепить и улучшить
+                                            все двигательные функции тела
+                                        </li>
+                                        <li>
+                                            Вы стремитесь поддерживать тело в
+                                            форме, несмотря на ограничения
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
-                        <div class="tool-content">
-                            <h3 class="tool-title">
-                                Пакет завораживающих медитаций
-                            </h3>
-                            <p class="tool-description">
-                                с музыкальным сопровождением, написанным композиторами из Германии
-                            </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="registration-section" id="prices">
+                <div class="registration-container">
+                    <div class="registration-box">
+                        <div class="registration-inner-box">
+                            <div class="registration-content">
+                                <h2 class="registration-title">
+                                    Не уверены, что вам нужен курс?
+                                </h2>
+                                <p class="registration-subtitle">
+                                    Начните с бесплатного живого вебинара с
+                                    автором курса
+                                </p>
+
+                                <form
+                                    class="registration-form"
+                                    id="registration-form"
+                                    novalidate
+                                >
+                                    <div class="form-group">
+                                        <label
+                                            for="reg-name"
+                                            class="visually-hidden"
+                                            >Ваше имя</label
+                                        >
+                                        <input
+                                            type="text"
+                                            id="reg-name"
+                                            name="name"
+                                            class="registration-input"
+                                            placeholder="Введите Имя"
+                                            required
+                                            aria-required="true"
+                                            autocomplete="name"
+                                        />
+                                    </div>
+                                    <div class="form-group">
+                                        <label
+                                            for="reg-email"
+                                            class="visually-hidden"
+                                            >Ваш email</label
+                                        >
+                                        <input
+                                            type="email"
+                                            id="reg-email"
+                                            name="email"
+                                            class="registration-input"
+                                            placeholder="Введите e-mail"
+                                            required
+                                            aria-required="true"
+                                            autocomplete="email"
+                                        />
+                                    </div>
+
+                                    <div class="registration-checkbox">
+                                        <input
+                                            type="checkbox"
+                                            id="privacy-reg"
+                                            name="privacy"
+                                            checked
+                                            required
+                                            aria-required="true"
+                                        />
+                                        <label for="privacy-reg"
+                                            >Я согласен на обработку
+                                            персональных данных и с условиями
+                                            политики конфиденциальности</label
+                                        >
+                                    </div>
+                                </form>
+
+                                <div class="registration-button-container">
+                                    <button
+                                        type="submit"
+                                        form="registration-form"
+                                        class="registration-button-wrapper"
+                                        aria-label="Отправить форму регистрации"
+                                    >
+                                        <img
+                                            src="assets/reg_bnt.svg"
+                                            alt="Зарегистрироваться на бесплатный вебинар"
+                                            class="registration-button-img"
+                                        />
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div
+                                class="registration-image"
+                                id="register"
+                                aria-hidden="true"
+                            >
+                                <img src="assets/reg.svg" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tools-section" id="tools">
+                <div class="container">
+                    <div class="section-wrapper">
+                        <div class="section-header">
+                            <h2 class="tools-title">
+                                Какие инструменты будем использовать
+                            </h2>
+                        </div>
+
+                        <div class="tools-grid">
+                            <div class="tool-item">
+                                <div class="tool-icon" aria-hidden="true">
+                                    <img
+                                        src="assets/1-sec.svg"
+                                        alt=""
+                                        class="tool-svg"
+                                        width="40"
+                                        height="40"
+                                        loading="lazy"
+                                    />
+                                </div>
+                                <div class="tool-content">
+                                    <h3 class="tool-title">
+                                        Авторские лекции и материалы
+                                    </h3>
+                                    <p class="tool-description">
+                                        только проверенные знания и наработки
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="tool-item">
+                                <div class="tool-icon" aria-hidden="true">
+                                    <img
+                                        src="assets/2-sec.svg"
+                                        alt=""
+                                        class="tool-svg"
+                                        width="40"
+                                        height="40"
+                                        loading="lazy"
+                                    />
+                                </div>
+                                <div class="tool-content">
+                                    <h3 class="tool-title">
+                                        Видео-уроки высокого качества
+                                    </h3>
+                                    <p class="tool-description">
+                                        записанные специально для этого курса
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="tool-item">
+                                <div class="tool-icon" aria-hidden="true">
+                                    <img
+                                        src="assets/3-sec.svg"
+                                        alt=""
+                                        class="tool-svg"
+                                        width="40"
+                                        height="40"
+                                        loading="lazy"
+                                    />
+                                </div>
+                                <div class="tool-content">
+                                    <h3 class="tool-title">
+                                        Пакет завораживающих медитаций
+                                    </h3>
+                                    <p class="tool-description">
+                                        с музыкальным сопровождением, написанным
+                                        композиторами из Германии
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="results-section" id="results">
+                <div class="container">
+                    <div class="section-wrapper">
+                        <div class="section-header">
+                            <h2 class="results-title">
+                                Какого результата вы достигнете
+                            </h2>
+                        </div>
+
+                        <div class="results-grid">
+                            <div class="results-column">
+                                <div class="result-item">
+                                    <div class="result-icon">
+                                        <svg
+                                            width="20"
+                                            height="20"
+                                            viewBox="0 0 20 20"
+                                            fill="none"
+                                        >
+                                            <circle
+                                                cx="10"
+                                                cy="10"
+                                                r="10"
+                                                fill="#28a745"
+                                            />
+                                            <path
+                                                d="M6 10L8.5 12.5L14 7"
+                                                stroke="white"
+                                                stroke-width="2"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                            />
+                                        </svg>
+                                    </div>
+                                    <div class="result-text">
+                                        Избавитесь от болей в шее/спине/пояснице
+                                        и скорректируете осанку
+                                    </div>
+                                </div>
+
+                                <div class="result-item">
+                                    <div class="result-icon">
+                                        <svg
+                                            width="20"
+                                            height="20"
+                                            viewBox="0 0 20 20"
+                                            fill="none"
+                                        >
+                                            <circle
+                                                cx="10"
+                                                cy="10"
+                                                r="10"
+                                                fill="#28a745"
+                                            />
+                                            <path
+                                                d="M6 10L8.5 12.5L14 7"
+                                                stroke="white"
+                                                stroke-width="2"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                            />
+                                        </svg>
+                                    </div>
+                                    <div class="result-text">
+                                        В результате регулярных занятий обретете
+                                        стройное, гибкое тело, плоский живот и
+                                        упругие ягодицы
+                                    </div>
+                                </div>
+
+                                <div class="result-item">
+                                    <div class="result-icon">
+                                        <svg
+                                            width="20"
+                                            height="20"
+                                            viewBox="0 0 20 20"
+                                            fill="none"
+                                        >
+                                            <circle
+                                                cx="10"
+                                                cy="10"
+                                                r="10"
+                                                fill="#28a745"
+                                            />
+                                            <path
+                                                d="M6 10L8.5 12.5L14 7"
+                                                stroke="white"
+                                                stroke-width="2"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                            />
+                                        </svg>
+                                    </div>
+                                    <div class="result-text">
+                                        Замедлите возрастные изменения
+                                    </div>
+                                </div>
+
+                                <div class="result-item">
+                                    <div class="result-icon">
+                                        <svg
+                                            width="20"
+                                            height="20"
+                                            viewBox="0 0 20 20"
+                                            fill="none"
+                                        >
+                                            <circle
+                                                cx="10"
+                                                cy="10"
+                                                r="10"
+                                                fill="#28a745"
+                                            />
+                                            <path
+                                                d="M6 10L8.5 12.5L14 7"
+                                                stroke="white"
+                                                stroke-width="2"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                            />
+                                        </svg>
+                                    </div>
+                                    <div class="result-text">
+                                        Измените компенсацию мышц и научите тело
+                                        распределять нагрузку на нерабочие и
+                                        атрофированные мышцы
+                                    </div>
+                                </div>
+
+                                <div class="result-item">
+                                    <div class="result-icon">
+                                        <svg
+                                            width="20"
+                                            height="20"
+                                            viewBox="0 0 20 20"
+                                            fill="none"
+                                        >
+                                            <circle
+                                                cx="10"
+                                                cy="10"
+                                                r="10"
+                                                fill="#28a745"
+                                            />
+                                            <path
+                                                d="M6 10L8.5 12.5L14 7"
+                                                stroke="white"
+                                                stroke-width="2"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                            />
+                                        </svg>
+                                    </div>
+                                    <div class="result-text">
+                                        За счет проработки качества движения
+                                        снизите риск повторных травм
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="results-column">
+                                <div class="result-item">
+                                    <div class="result-icon">
+                                        <svg
+                                            width="20"
+                                            height="20"
+                                            viewBox="0 0 20 20"
+                                            fill="none"
+                                        >
+                                            <circle
+                                                cx="10"
+                                                cy="10"
+                                                r="10"
+                                                fill="#28a745"
+                                            />
+                                            <path
+                                                d="M6 10L8.5 12.5L14 7"
+                                                stroke="white"
+                                                stroke-width="2"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                            />
+                                        </svg>
+                                    </div>
+                                    <div class="result-text">
+                                        Наладите отношение с собственным телом и
+                                        найдете идеальную физическую активность
+                                    </div>
+                                </div>
+
+                                <div class="result-item">
+                                    <div class="result-icon">
+                                        <svg
+                                            width="20"
+                                            height="20"
+                                            viewBox="0 0 20 20"
+                                            fill="none"
+                                        >
+                                            <circle
+                                                cx="10"
+                                                cy="10"
+                                                r="10"
+                                                fill="#28a745"
+                                            />
+                                            <path
+                                                d="M6 10L8.5 12.5L14 7"
+                                                stroke="white"
+                                                stroke-width="2"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                            />
+                                        </svg>
+                                    </div>
+                                    <div class="result-text">
+                                        Научитесь справляться со своими эмоциями
+                                        и восстанавливать внутреннее равновесие
+                                    </div>
+                                </div>
+
+                                <div class="result-item">
+                                    <div class="result-icon">
+                                        <svg
+                                            width="20"
+                                            height="20"
+                                            viewBox="0 0 20 20"
+                                            fill="none"
+                                        >
+                                            <circle
+                                                cx="10"
+                                                cy="10"
+                                                r="10"
+                                                fill="#28a745"
+                                            />
+                                            <path
+                                                d="M6 10L8.5 12.5L14 7"
+                                                stroke="white"
+                                                stroke-width="2"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                            />
+                                        </svg>
+                                    </div>
+                                    <div class="result-text">
+                                        Наладите отношение с эмоциональной
+                                        сферой, чтобы обрести баланс и
+                                        эффективно использовать свой потенциал
+                                    </div>
+                                </div>
+
+                                <div class="result-item">
+                                    <div class="result-icon">
+                                        <svg
+                                            width="20"
+                                            height="20"
+                                            viewBox="0 0 20 20"
+                                            fill="none"
+                                        >
+                                            <circle
+                                                cx="10"
+                                                cy="10"
+                                                r="10"
+                                                fill="#28a745"
+                                            />
+                                            <path
+                                                d="M6 10L8.5 12.5L14 7"
+                                                stroke="white"
+                                                stroke-width="2"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                            />
+                                        </svg>
+                                    </div>
+                                    <div class="result-text">
+                                        Освоите техники дыхания и научитесь
+                                        медитировать
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="certificates-section" id="certificates">
+                <div class="container">
+                    <div class="section-header">
+                        <h2 class="section-title">Наши сертификаты</h2>
+                        <p class="section-subtitle">
+                            Подтверждение профессиональной квалификации
+                        </p>
+                    </div>
+                    <div class="certificates-grid">
+                        <div class="certificate-item narrow">
+                            <img
+                                src="assets/cert1.jpg"
+                                alt="Сертификат FFS"
+                                loading="lazy"
+                            />
+                        </div>
+                        <div class="certificate-item narrow">
+                            <img
+                                src="assets/cert2.jpg"
+                                alt="Сертификат AnatomyStudy"
+                                loading="lazy"
+                            />
+                        </div>
+                        <div class="certificate-item narrow">
+                            <img
+                                src="assets/cert4.png"
+                                alt="Сертификат по пилатесу"
+                                loading="lazy"
+                            />
+                        </div>
+
+                        <div class="certificate-item wide">
+                            <img
+                                src="assets/cert3.jpg"
+                                alt="Сертификат по йоге"
+                                loading="lazy"
+                            />
+                        </div>
+                        <div class="certificate-item wide">
+                            <img
+                                src="assets/cert5.png"
+                                alt="Сертификат по фитнесу"
+                                loading="lazy"
+                            />
+                        </div>
+                        <div class="certificate-item wide">
+                            <img
+                                src="assets/cert6.png"
+                                alt="Сертификат по кинезиологии"
+                                loading="lazy"
+                            />
+                        </div>
+                        <div class="certificate-item wide">
+                            <img
+                                src="assets/cert7.png"
+                                alt="Сертификат по массажу"
+                                loading="lazy"
+                            />
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-
-    <div class="results-section" id="results">
-        <div class="container">
-            <div class="section-wrapper">
-                <div class="section-header">
-                    <h2 class="results-title">
-                        Какого результата вы достигнете
-                    </h2>
-                </div>
-
-                <div class="results-grid">
-                    <div class="results-column">
-                        <div class="result-item">
-                            <div class="result-icon">
-                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                    <circle cx="10" cy="10" r="10" fill="#28a745"/>
-                                    <path d="M6 10L8.5 12.5L14 7" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg>
-                            </div>
-                            <div class="result-text">
-                                Избавитесь от болей в шее/спине/пояснице и скорректируете осанку
-                            </div>
-                        </div>
-
-                        <div class="result-item">
-                            <div class="result-icon">
-                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                    <circle cx="10" cy="10" r="10" fill="#28a745"/>
-                                    <path d="M6 10L8.5 12.5L14 7" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg>
-                            </div>
-                            <div class="result-text">
-                                В результате регулярных занятий обретете стройное, гибкое тело, плоский живот и упругие ягодицы
-                            </div>
-                        </div>
-
-                        <div class="result-item">
-                            <div class="result-icon">
-                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                    <circle cx="10" cy="10" r="10" fill="#28a745"/>
-                                    <path d="M6 10L8.5 12.5L14 7" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg>
-                            </div>
-                            <div class="result-text">
-                                Замедлите возрастные изменения
-                            </div>
-                        </div>
-
-                        <div class="result-item">
-                            <div class="result-icon">
-                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                    <circle cx="10" cy="10" r="10" fill="#28a745"/>
-                                    <path d="M6 10L8.5 12.5L14 7" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg>
-                            </div>
-                            <div class="result-text">
-                                Измените компенсацию мышц и научите тело распределять нагрузку на нерабочие и атрофированные мышцы
-                            </div>
-                        </div>
-
-                        <div class="result-item">
-                            <div class="result-icon">
-                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                    <circle cx="10" cy="10" r="10" fill="#28a745"/>
-                                    <path d="M6 10L8.5 12.5L14 7" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg>
-                            </div>
-                            <div class="result-text">
-                                За счет проработки качества движения снизите риск повторных травм
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="results-column">
-                        <div class="result-item">
-                            <div class="result-icon">
-                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                    <circle cx="10" cy="10" r="10" fill="#28a745"/>
-                                    <path d="M6 10L8.5 12.5L14 7" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg>
-                            </div>
-                            <div class="result-text">
-                                Наладите отношение с собственным телом и найдете идеальную физическую активность
-                            </div>
-                        </div>
-
-                        <div class="result-item">
-                            <div class="result-icon">
-                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                    <circle cx="10" cy="10" r="10" fill="#28a745"/>
-                                    <path d="M6 10L8.5 12.5L14 7" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg>
-                            </div>
-                            <div class="result-text">
-                                Научитесь справляться со своими эмоциями и восстанавливать внутреннее равновесие
-                            </div>
-                        </div>
-
-                        <div class="result-item">
-                            <div class="result-icon">
-                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                    <circle cx="10" cy="10" r="10" fill="#28a745"/>
-                                    <path d="M6 10L8.5 12.5L14 7" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg>
-                            </div>
-                            <div class="result-text">
-                                Наладите отношение с эмоциональной сферой, чтобы обрести баланс и эффективно использовать свой потенциал
-                            </div>
-                        </div>
-
-                        <div class="result-item">
-                            <div class="result-icon">
-                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                    <circle cx="10" cy="10" r="10" fill="#28a745"/>
-                                    <path d="M6 10L8.5 12.5L14 7" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg>
-                            </div>
-                            <div class="result-text">
-                                Освоите техники дыхания и научитесь медитировать
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="certificates-section" id="certificates">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Наши сертификаты</h2>
-                <p class="section-subtitle">Подтверждение профессиональной квалификации</p>
-            </div>
-            <div class="certificates-grid">
-
-                <div class="certificate-item narrow">
-                    <img src="assets/cert1.jpg" alt="Сертификат FFS" loading="lazy">
-                </div>
-                <div class="certificate-item narrow">
-                    <img src="assets/cert2.jpg" alt="Сертификат AnatomyStudy" loading="lazy">
-                </div>
-                <div class="certificate-item narrow">
-                    <img src="assets/cert4.png" alt="Сертификат по пилатесу" loading="lazy">
-                </div>
-
-
-                <div class="certificate-item wide">
-                    <img src="assets/cert3.jpg" alt="Сертификат по йоге" loading="lazy">
-                </div>
-                <div class="certificate-item wide">
-                    <img src="assets/cert5.png" alt="Сертификат по фитнесу" loading="lazy">
-                </div>
-                <div class="certificate-item wide">
-                    <img src="assets/cert6.png" alt="Сертификат по кинезиологии" loading="lazy">
-                </div>
-                <div class="certificate-item wide">
-                    <img src="assets/cert7.png" alt="Сертификат по массажу" loading="lazy">
-                </div>
-            </div>
-        </div>
-    </div>
-    <script src="script.js"></script>
-</body>
+        <script src="script.js"></script>
+    </body>
 </html>
